@@ -27,7 +27,7 @@ public class Oppg4 {
 
     public static void main(String[] args){
         int[] array = {1};
-        /*  int Utarray = maks(array);*/
+        int Utarray = maks(array);
         System.out.println(maks(array));
 
     }

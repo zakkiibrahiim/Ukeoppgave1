@@ -18,17 +18,23 @@ public class Oppg2 {
 
         int verdi = 0;
 
-        for (int i = 1; i < a.length; i++)
+        for (int i = 0; i < a.length; i++)
         {
             verdi = a[i];
 
-            if (verdi > maksverdi) { maksverdi = verdi; ma = i;}
-            else if (verdi < minverdi) {minverdi = verdi; mi = i;}
+            if (verdi > maksverdi) {
+                maksverdi = verdi;
+                ma = i;}
+            else if (verdi < minverdi) {
+                minverdi = verdi;
+                mi = i;}
         }
 
         return new int[]{mi,ma};
     }
 /*
+
+
     //Oppg 6
     public static long fak(int n){
         if (n < 0)
@@ -40,6 +46,6 @@ public class Oppg2 {
     }
     // Hvis n = 0 eller 1 utføres ingen multiplikasjoner.
     // HVis n > 1 utføres det n-1 multiplikasjoner.
-
  */
+
 }
