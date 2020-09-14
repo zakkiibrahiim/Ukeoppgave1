@@ -27,7 +27,7 @@ public class Oppg2 {
 
         System.out.println(minmaks(a));
 
-         /*
+
         int[] a = {1,8};
 
         int[] minmaks = minmaks(a);
@@ -36,12 +36,15 @@ public class Oppg2 {
         System.out.println(minmaks);
 
     }
-
+ /*
     //Oppg 5
     public static int[] minmaks(int[] a)
     {
-        int mi = 0, minverdi = a[0];
-        int ma = 0, maksverdi = a[0];
+        int mi = 0,
+        minverdi = a[0];
+ /
+        int ma = 0,
+         maksverdi = a[0];
 
         int verdi = 0;
 
